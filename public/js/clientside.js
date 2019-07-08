@@ -6,13 +6,13 @@ const download = require('downloadjs');
 const representEl = document.getElementById('represent-element');
 
 // get image information
-const widthEl = document.getElementById('width');
-const heightEl = document.getElementById('height');
-const nameEl = document.getElementById('name');    
-const wordEl = document.getElementById('word'); 
-const viEl = document.getElementById('vi');
-const enEl = document.getElementById('en');
-const spellingEl = document.getElementById('spelling');
+const widthEl = document.getElementById('input-width');
+const heightEl = document.getElementById('input-height');
+const nameEl = document.getElementById('input-name');    
+const wordEl = document.getElementById('input-word'); 
+const viEl = document.getElementById('input-vi');
+const enEl = document.getElementById('input-en');
+const spellingEl = document.getElementById('input-spelling');
 
 // assign name field for the first time
 nameEl.placeholder = date();
@@ -30,7 +30,7 @@ document.getElementById('render-button').addEventListener('click', (event) => {
     const spelling = spellingEl.value;
 
     // assign image information to represent element
-    document.getElementById('word').innerHTML = word;
+    document.getElementById('abb').innerHTML = word;
     document.getElementById('meaning-vi').innerHTML = vi;
     document.getElementById('meaning-en').innerHTML = en;
     document.getElementById('spelling').innerHTML = spelling;
