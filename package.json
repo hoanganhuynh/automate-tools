@@ -1,0 +1,25 @@
+{
+  "name": "automate-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-script": "./node_modules/.bin/browserify -r JSONPath -e main.js -o ./public/js/clientside.js",
+    "start": "npm run compile-script && nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "JSONPath": "^0.11.2",
+    "browserify": "^16.3.0",
+    "date-time": "^3.1.0",
+    "downloadjs": "^1.4.7",
+    "express": "^4.17.1",
+    "html-to-image": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

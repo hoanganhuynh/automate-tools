@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Automate tool</title>
+</head>
+<body>
+    <div class="main container-fluid">
+        <div class="form__input mr-5">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="width: 120px;">Image name</span>
+                </div>
+                <input type="text" aria-label="name" id="name" name="name" class="form-control">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="width: 120px;">Width</span>
+                </div>
+                <input type="number" aria-label="width" id="width" name="width" class="form-control" placeholder="500px by default">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="width: 120px;">Height</span>
+                </div>
+                <input type="number" aria-label="height" id="height" name="height" class="form-control" placeholder="420px by default">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="width: 120px;">Word</span>
+                </div>
+                <input type="text" aria-label="word" id="word" name="word" class="form-control">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="width: 120px;">vi word</span>
+                </div>
+                <input type="text" aria-label="vi" id="vi" name="vi" class="form-control">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="width: 120px;">en word</span>
+                </div>
+                <input type="text" aria-label="en" id="en" name="en" class="form-control">
+            </div>            
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" style="width: 120px;">Spelling</span>
+                </div>
+                <input type="text" aria-label="spelling" id="spelling" name="spelling" class="form-control">
+            </div>
+            <button class="mt-2 btn btn-primary" id="render-button">Render image</button>
+        </div>    
+        
+        <div class="background flex__center" id="represent-element">
+            <div class="coderstokyo">
+                <img class="coders-logo mb-2" src="https://res.cloudinary.com/djeghcumw/image/upload/v1560521264/blog/logo_1.png" alt="logo">
+            </div>
+            <h1 class="word" id="word"></h1>                                    
+            
+            <div class="meaning-container">
+                <div class="en-container">                    
+                    <p id="meaning-en" style="margin-bottom: 0.6rem"></p>
+                </div>
+                <div class="vi-container">
+                    <p id="meaning-vi" style="margin-bottom: 0.6rem"></p>
+                </div>                                
+            </div>      
+            <div class="spelling-container">
+                <p id="spelling"></p>
+            </div>      
+        </div>                     
+    </div>    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/clientside.js"></script>
+</body>
+</html>

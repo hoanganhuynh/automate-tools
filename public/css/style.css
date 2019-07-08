@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    overflow: hidden;    
+}
+
+.main {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.form__input {
+    width: 35%;
+}
+
+.flex__center {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {    
+    width: 500px;
+    height: 420px;
+    background-color: #F8F8F8;
+    border-radius: 17px;
+    box-shadow: 0px 3px 9px rgba(0,0,0,0.16);
+}
+
+.coderstokyo {
+    margin-top: -1.5rem;
+}
+
+.word {
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+    height: 8rem;
+    background-color: #D20000;
+    border-radius: 7px;
+    line-height: 8rem;
+    font-size: 5rem;
+    color: #fff;    
+}
+
+.meaning-container {
+    text-align: center;
+    width: 80%;
+    height: 6rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0px 3px 9px rgba(0,0,0,0.16);
+    margin-bottom: 10px;
+}
+
+.en-container, .vi-container {
+    margin: 0 auto;
+    border-bottom: 1px solid #F8F8F8;
+    width: 80%;
+}
+
+#meaning-en, #meaning-vi, #spelling {
+    color: #656565;
+    font-size: 19px;    
+}
+
+.spelling-container {
+    text-align: center;
+    width: 80%;
+    height: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0px 3px 9px rgba(0,0,0,0.16);
+}
