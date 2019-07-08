@@ -3,7 +3,7 @@ const htmlToImage = require('html-to-image');
 const date = require('date-time');
 const download = require('downloadjs');
 
-const representEl = document.getElementById('represent-element');
+const representEl = document.getElementById('main__area');
 
 // get image information
 const widthEl = document.getElementById('input-width');
@@ -22,7 +22,7 @@ document.getElementById('render-button').addEventListener('click', (event) => {
     event.preventDefault();    
 
     const width = (widthEl.value) ? widthEl.value : '500';
-    const height = (heightEl.value) ? heightEl.value : '420';
+    const height = (heightEl.value) ? heightEl.value : '500';
     const name = (nameEl.value) ? nameEl.value : date();
     const word = wordEl.value; 
     const vi = viEl.value;

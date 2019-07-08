@@ -27,7 +27,7 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" style="width: 120px;">Height</span>
                 </div>
-                <input type="number" aria-label="height" id="input-height" name="height" class="form-control" placeholder="420px by default">
+                <input type="number" aria-label="height" id="input-height" name="height" class="form-control" placeholder="500px by default">
             </div>
             <div class="input-group">
                 <div class="input-group-prepend">
@@ -56,26 +56,30 @@
             <button class="mt-2 btn btn-primary" id="render-button">Generate</button>
         </div>    
         
-        <div class="background flex__center" id="represent-element">
-            <div class="coderstokyo">
-                <img class="coders-logo mb-2" src="https://res.cloudinary.com/djeghcumw/image/upload/v1560521264/blog/logo_1.png" alt="logo">
-            </div>
-            <h1 class="word" id="abb"></h1>                                    
-            
-            <div class="meaning-container">
-                <div class="en-container clearfix"> 
-                    <span class="meaning-type">EN</span>                   
-                    <p id="meaning-en" style="margin-bottom: 0.4rem;"></p>
+        <div class="main__area flex__center" id="main__area">
+            <div class="background flex__center">
+                <div class="coderstokyo">
+                    <img class="coders-logo mb-2" src="https://res.cloudinary.com/djeghcumw/image/upload/v1560521264/blog/logo_1.png" alt="logo">
                 </div>
-                <div class="vi-container clearfix">
-                    <span class="meaning-type">VI</span>
-                    <p id="meaning-vi" style="margin-bottom: 0.6rem;"></p>
-                </div>                                
-            </div>      
-            <div class="spelling-container">
-                <p id="spelling"></p>
-            </div>      
-        </div>                     
+                <h1 class="word" id="abb"></h1>                                    
+                
+                <div class="meaning-container">
+                    <div class="en-container clearfix"> 
+                        <span class="meaning-type">EN</span>                   
+                        <p id="meaning-en" style="margin-bottom: 0.4rem;"></p>
+                    </div>
+                    <div class="vi-container clearfix">
+                        <span class="meaning-type">VI</span>
+                        <p id="meaning-vi" style="margin-bottom: 0.6rem;"></p>
+                    </div>                                
+                </div> 
+
+                <div class="spelling-container">
+                    <img class="icon__speaker" src="https://res.cloudinary.com/djeghcumw/image/upload/v1562584340/blog/can%20tho/icon__speaker.png" alt="" srcset="">
+                    <p id="spelling"></p>
+                </div>      
+            </div>     
+        </div>                    
     </div>    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

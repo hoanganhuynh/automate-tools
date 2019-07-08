@@ -11,28 +11,36 @@ body {
     justify-content: center;
     padding-top: 50px;
 }
-
+.input-group-text, .form-control {
+    margin: 5px 0;
+}
 .form__input {
     width: 35%;
 }
-
 .flex__center {    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+.main__area {
+    width: 590px;
+    height: 590px;
+    background-color: #fff;
+    padding: 0 20px;
+}
 .background {    
-    width: 500px;
-    height: 420px;
+    width: 460px;
+    height: 570px;
     background-color: #F8F8F8;
     border-radius: 17px;
     box-shadow: 0px 3px 9px rgba(0,0,0,0.16);
+    margin: 20px 15px;
 }
 
 .coderstokyo {
-    margin-top: -1.5rem;
+    margin-top: -2rem;
+    margin-bottom: .7rem;
 }
 
 .word {
@@ -46,16 +54,15 @@ body {
     font-size: 5rem;
     color: #fff;    
 }
-
 .meaning-container {
     text-align: center;
     padding-top: 5px;
     width: 80%;
-    height: 5rem;
+    height: 5.2rem;
     background-color: rgb(255, 255, 255);
     border-radius: 7px;
     box-shadow: 0px 3px 9px rgba(0,0,0,0.16);
-    margin-bottom: 10px;
+    margin: 13px 0;
 }
 
 .en-container, .vi-container {
@@ -64,7 +71,7 @@ body {
     position: relative;
 }
 .en-container {
-    border-bottom: 2px solid rgb(119, 119, 119);
+    border-bottom: 1.2px solid rgb(204, 204, 204);
 }
 .vi-container {
     margin-top: 5px;
@@ -94,4 +101,9 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: 7px;
     box-shadow: 0px 3px 9px rgba(0,0,0,0.16);
+    padding-right: 20px;
+}
+.icon__speaker {
+    float: left;
+    padding: 10px;
 }
