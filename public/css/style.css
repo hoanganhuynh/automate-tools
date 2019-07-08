@@ -49,8 +49,9 @@ body {
 
 .meaning-container {
     text-align: center;
+    padding-top: 5px;
     width: 80%;
-    height: 6rem;
+    height: 5rem;
     background-color: rgb(255, 255, 255);
     border-radius: 7px;
     box-shadow: 0px 3px 9px rgba(0,0,0,0.16);
@@ -58,18 +59,36 @@ body {
 }
 
 .en-container, .vi-container {
-    margin: 0 auto;
-    border-bottom: 1px solid #F8F8F8;
-    width: 80%;
+    margin: 0 auto;    
+    width: 95%;
+    position: relative;
+}
+.en-container {
+    border-bottom: 2px solid rgb(119, 119, 119);
+}
+.vi-container {
+    margin-top: 5px;
 }
 
 #meaning-en, #meaning-vi, #spelling {
     color: #656565;
-    font-size: 19px;    
+    font-size: 19px;
+}
+
+.meaning-type {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 40px;
+    height: 20px;
+    color: rgb(119, 119, 119);
+    background-color: rgb(235, 235, 235);
+    border-radius: 30px;
 }
 
 .spelling-container {
     text-align: center;
+    line-height: 3rem;
     width: 80%;
     height: 3rem;
     background-color: rgb(255, 255, 255);
